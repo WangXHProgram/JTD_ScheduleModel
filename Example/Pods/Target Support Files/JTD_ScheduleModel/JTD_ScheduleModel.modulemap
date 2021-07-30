@@ -1,0 +1,6 @@
+framework module JTD_ScheduleModel {
+  umbrella header "JTD_ScheduleModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
