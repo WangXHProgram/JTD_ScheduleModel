@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JTD_ScheduleModel_Example' do
+  pod 'JTD_ScheduleModel', :path => '../'
+
+  target 'JTD_ScheduleModel_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
