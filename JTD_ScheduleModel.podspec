@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JTD_ScheduleModel'
-  s.version          = '0.1.1.2'
+  s.version          = '0.1.1.5'
   s.summary          = 'A short description of JTD_ScheduleModel.'
 
 # This description is used to generate tags and improve search results.
