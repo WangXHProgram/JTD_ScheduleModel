@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JTD_ScheduleModel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JTD_ScheduleModel.'
 
 # This description is used to generate tags and improve search results.
@@ -24,16 +24,17 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/wangxinghua/JTD_ScheduleModel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangxinghua' => 'wangxinghua@duia.com' }
+  s.author           = { 'wangxinghua' => 'kwangxh@163.com' }
   s.source           = { :git => 'https://github.com/wangxinghua/JTD_ScheduleModel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JTD_ScheduleModel/Classes/**/*'
+  s.source_files = 'JTD_ScheduleModel/Classes/**/*.{h,m}'
+  s.resources = ['JTD_ScheduleModel/Classes/**/*.{xib}','JTD_ScheduleModel/Classes/**/*.{xib}']
   
   # s.resource_bundles = {
-  #   'JTD_ScheduleModel' => ['JTD_ScheduleModel/Assets/*.png']
+  #  'JTD_ScheduleModelBundle' => ['JTD_ScheduleModel/Assets','JTD_ScheduleModel/Classes/**/*.{xib}']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
