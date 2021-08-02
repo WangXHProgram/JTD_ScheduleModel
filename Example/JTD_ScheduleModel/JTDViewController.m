@@ -7,7 +7,7 @@
 //
 
 #import "JTDViewController.h"
-
+#import "ScheduleViewController.h"
 @interface JTDViewController ()
 
 @end
@@ -19,6 +19,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
+- (IBAction)schedulePush:(id)sender {
+    ScheduleViewController *VC = [[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil];
+    [self.navigationController pushViewController:VC animated:YES];
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {

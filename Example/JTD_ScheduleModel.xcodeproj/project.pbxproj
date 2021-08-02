@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24244EF408E1E95B6C700035 /* Pods_JTD_ScheduleModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017871D69B7DBAF0D22ED2B /* Pods_JTD_ScheduleModel_Example.framework */; };
+		03ECA3CF7730481A0EAF27AE /* libPods-JTD_ScheduleModel_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A27236BBA71CD67480C6426 /* libPods-JTD_ScheduleModel_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D536749176998E999C615838 /* Pods_JTD_ScheduleModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7278D07FA68CAE3B9AAFC9C0 /* Pods_JTD_ScheduleModel_Tests.framework */; };
+		F900287C0935D9E92B9ED723 /* libPods-JTD_ScheduleModel_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A734349A3370A794625C26D /* libPods-JTD_ScheduleModel_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0017871D69B7DBAF0D22ED2B /* Pods_JTD_ScheduleModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTD_ScheduleModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A734349A3370A794625C26D /* libPods-JTD_ScheduleModel_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JTD_ScheduleModel_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43881B3266DF8C09CF6877AF /* Pods-JTD_ScheduleModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTD_ScheduleModel_Tests.release.xcconfig"; path = "Target Support Files/Pods-JTD_ScheduleModel_Tests/Pods-JTD_ScheduleModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C30457DEF9CC9E0D7DD9DF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A27236BBA71CD67480C6426 /* libPods-JTD_ScheduleModel_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JTD_ScheduleModel_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C30457DEF9CC9E0D7DD9DF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		57CEAEF69894644330F8ED0F /* Pods-JTD_ScheduleModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTD_ScheduleModel_Example.debug.xcconfig"; path = "Target Support Files/Pods-JTD_ScheduleModel_Example/Pods-JTD_ScheduleModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JTD_ScheduleModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTD_ScheduleModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,11 +62,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7278D07FA68CAE3B9AAFC9C0 /* Pods_JTD_ScheduleModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTD_ScheduleModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807ED2F013F7426A422851A6 /* Pods-JTD_ScheduleModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTD_ScheduleModel_Example.release.xcconfig"; path = "Target Support Files/Pods-JTD_ScheduleModel_Example/Pods-JTD_ScheduleModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C1EF2B7D9DECA760F1B0AB2 /* JTD_ScheduleModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JTD_ScheduleModel.podspec; path = ../JTD_ScheduleModel.podspec; sourceTree = "<group>"; };
-		AAFE29F19D55F3577A361D87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C1EF2B7D9DECA760F1B0AB2 /* JTD_ScheduleModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JTD_ScheduleModel.podspec; path = ../JTD_ScheduleModel.podspec; sourceTree = "<group>"; };
+		AAFE29F19D55F3577A361D87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EFEA86BDD56FE4CB7572A941 /* Pods-JTD_ScheduleModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTD_ScheduleModel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JTD_ScheduleModel_Tests/Pods-JTD_ScheduleModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				24244EF408E1E95B6C700035 /* Pods_JTD_ScheduleModel_Example.framework in Frameworks */,
+				F900287C0935D9E92B9ED723 /* libPods-JTD_ScheduleModel_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D536749176998E999C615838 /* Pods_JTD_ScheduleModel_Tests.framework in Frameworks */,
+				03ECA3CF7730481A0EAF27AE /* libPods-JTD_ScheduleModel_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0017871D69B7DBAF0D22ED2B /* Pods_JTD_ScheduleModel_Example.framework */,
-				7278D07FA68CAE3B9AAFC9C0 /* Pods_JTD_ScheduleModel_Tests.framework */,
+				0A734349A3370A794625C26D /* libPods-JTD_ScheduleModel_Example.a */,
+				4A27236BBA71CD67480C6426 /* libPods-JTD_ScheduleModel_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				EFEA86BDD56FE4CB7572A941 /* Pods-JTD_ScheduleModel_Tests.debug.xcconfig */,
 				43881B3266DF8C09CF6877AF /* Pods-JTD_ScheduleModel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				08FAAC990085345C752843FC /* [CP] Embed Pods Frameworks */,
+				5409EBCAACDF31AFD0BCBA51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				B2BB7D5892C13418D43B3389 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wangxinghua;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QHFZRN7A8S;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08FAAC990085345C752843FC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JTD_ScheduleModel_Example/Pods-JTD_ScheduleModel_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JTD_ScheduleModel/JTD_ScheduleModel.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTD_ScheduleModel.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTD_ScheduleModel_Example/Pods-JTD_ScheduleModel_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2E9570B81E2D7615DFE29258 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,28 +342,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B2BB7D5892C13418D43B3389 /* [CP] Embed Pods Frameworks */ = {
+		5409EBCAACDF31AFD0BCBA51 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JTD_ScheduleModel_Tests/Pods-JTD_ScheduleModel_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-JTD_ScheduleModel_Example/Pods-JTD_ScheduleModel_Example-resources.sh",
+				"${PODS_ROOT}/../../JTD_ScheduleModel/Classes/Controller/ScheduleViewController.xib",
+				"${PODS_ROOT}/../../JTD_ScheduleModel/Classes/Controller/SecondViewController.xib",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ScheduleViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SecondViewController.nib",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTD_ScheduleModel_Tests/Pods-JTD_ScheduleModel_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTD_ScheduleModel_Example/Pods-JTD_ScheduleModel_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -519,6 +499,7 @@
 			baseConfigurationReference = 57CEAEF69894644330F8ED0F /* Pods-JTD_ScheduleModel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QHFZRN7A8S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTD_ScheduleModel/JTD_ScheduleModel-Prefix.pch";
 				INFOPLIST_FILE = "JTD_ScheduleModel/JTD_ScheduleModel-Info.plist";
@@ -535,6 +516,7 @@
 			baseConfigurationReference = 807ED2F013F7426A422851A6 /* Pods-JTD_ScheduleModel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QHFZRN7A8S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTD_ScheduleModel/JTD_ScheduleModel-Prefix.pch";
 				INFOPLIST_FILE = "JTD_ScheduleModel/JTD_ScheduleModel-Info.plist";

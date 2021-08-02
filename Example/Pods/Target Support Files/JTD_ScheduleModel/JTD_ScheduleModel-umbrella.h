@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ScheduleViewController.h"
+#import "SecondViewController.h"
 
 FOUNDATION_EXPORT double JTD_ScheduleModelVersionNumber;
 FOUNDATION_EXPORT const unsigned char JTD_ScheduleModelVersionString[];
